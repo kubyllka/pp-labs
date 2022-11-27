@@ -1,0 +1,24 @@
+[ERROR] 2022-11-09 15:37:39.184 [main] Database - Error trace in getConnection() : Login failed for user 'hzzi'.
+[INFO] 2022-11-09 15:37:59.352 [main] Database - The connection to the database was successfully established!
+URL: jdbc:sqlserver://DESKTOP-VDL5LBV\MSSQLSERVER:1433;database=flowershopDB
+For user: hzz
+[INFO] 2022-11-09 15:37:59.385 [main] SortFilterFlowersDAO - getAll(). All flowers are retrieved from the database.
+[INFO] 2022-11-09 15:38:09.804 [main] SortFilterAccessoriesDAO - getAll(). All accessories are retrieved from the database.
+[INFO] 2022-11-09 15:38:15.522 [main] SortFilterAccessoriesDAO - sortByType(). All accessories with type BEAR are retrieved from the database.
+[INFO] 2022-11-09 15:38:34.666 [main] SortFilterAccessoriesDAO - filterInPriceRange(). All accessories in range are retrieved from the database:
+SELECT * FROM accessories WHERE accessoryPrice >= ? AND accessoryPrice <= ?  min = 55.0 max = 55.0
+[INFO] 2022-11-09 15:38:58.324 [main] SortFilterFlowersDAO - filterInRangeWithStatement(). There are no flowers in this range:
+SELECT * FROM flowers WHERE flowerLength >= ? AND flowerLength <= ? min = 5.0 max = 6.0
+[INFO] 2022-11-09 15:49:46.697 [main] Database - The connection to the database was successfully established!
+URL: jdbc:sqlserver://DESKTOP-VDL5LBV\MSSQLSERVER:1433;database=flowershopDB
+For user: hzz
+[INFO] 2022-11-09 15:49:46.732 [main] SortFilterFlowersDAO - getAll(). All flowers are retrieved from the database.
+[INFO] 2022-11-09 15:49:54.938 [main] SortFilterAccessoriesDAO - getAll(). All accessories are retrieved from the database.
+[INFO] 2022-11-10 23:21:46.085 [main] Database - The connection to the database was successfully established!
+URL: jdbc:sqlserver://DESKTOP-VDL5LBV\MSSQLSERVER:1433;database=flowershopDB
+For user: hzz
+[INFO] 2022-11-10 23:21:46.166 [main] SortFilterFlowersDAO - getAll(). All flowers are retrieved from the database.
+[INFO] 2022-11-11 12:55:56.448 [main] Database - The connection to the database was successfully established!
+URL: jdbc:sqlserver://DESKTOP-VDL5LBV\MSSQLSERVER:1433;database=flowershopDB
+For user: hzz
+[INFO] 2022-11-11 12:55:56.514 [main] SortFilterFlowersDAO - getAll(). All flowers are retrieved from the database.
